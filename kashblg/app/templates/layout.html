@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <title>Kaushil's app</title>
-   <link rel="stylesheet" href="static/css/mainn.css">
+   <title>Kash Blog</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
   </head>
+
   <body>
     <header>
       <div class="container">
-        <h1 class="logo">Kaushil's web app</h1>
+        <h1 class="logo">Kaushil's website</h1>
         <strong><nav>
           <ul class="menu">
             <li><a href="{{ url_for('home') }}">Home</a></li>
             <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('resume') }}">Resume</a></li>
           </ul>
         </nav></strong>
       </div>
