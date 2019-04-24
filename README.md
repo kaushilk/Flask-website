@@ -1,2 +1,2 @@
 # flask_website
-creating blog with flask
+creating blog with flask. Also using bootstrap.
